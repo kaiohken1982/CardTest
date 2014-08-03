@@ -90,5 +90,6 @@ If you have xdebug enabled and you want to see
 code coverage run the command below, 
 it'll create html files in CardTest\tests\data\coverage 
 
-``` ./vendor/bin/phpunit --coverage-html data/coverage 
+``` 
+./vendor/bin/phpunit --coverage-html data/coverage 
 ```
