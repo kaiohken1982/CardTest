@@ -34,15 +34,19 @@ class Game
     return $this->deck;
   } 
 
-  public function setUp ()
+  public function dealCards() 
   {
 	  $players = $this->getPlayers();
-	  $this->getDeck()->shuffle();
-	
 	  for($i = 0; $i < self::PLAYER_CARDS; $i++) {
 	    foreach($players as $player) {
 	      $this->getDeck()->dealCard($player);
       }
 	  }
+  }
+
+  public function setUp()
+  {
+	  $this->getDeck()->shuffle();
+	  $this->dealCards();
   }
 }

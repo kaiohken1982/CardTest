@@ -41,6 +41,7 @@ class GameTest
 	
 	/** 
 	 * @covers \CardTest\Game::setUp() 
+	 * @covers \CardTedt\Game::dealCards()
 	 */
 	public function testSetUp() 
 	{ 
