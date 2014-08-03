@@ -24,6 +24,11 @@ class Player
   public function getName() 
   {
     return $this->name;
+  } 
+
+  public function getCards() 
+  {
+    return $this->cards;
   }
 
   public function addCard(Card $card) 
