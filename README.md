@@ -16,6 +16,8 @@ all the way up to king of diamonds on the top).
 The task is a simple one. Please create a simple command line program that when executed recreates the 
 scenario above and then performs the following two actions:
 
+### Goals
+
 * Shuffle the cards - We would like to take the deck that is in sequence and shuffle it so that no two cards 
 are still in sequence.
 
